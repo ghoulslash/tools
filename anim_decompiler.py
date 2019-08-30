@@ -1,3 +1,10 @@
+# anim_decompiler.py
+#	decompile animation commands in fire red
+#
+# written by: Skeli789
+#
+#
+
 #Data
 RomPath = 'rom.gba'
 AnimFolderPath = './'

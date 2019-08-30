@@ -1,3 +1,8 @@
+# coord_tables.py
+#	extract front, back, and elevation coordinate tables for mon sprites
+#
+# written by: ghoulslash
+#
 import os, sys, argparse, configparser, shutil, subprocess, fnmatch, itertools
 import os.path
 

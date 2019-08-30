@@ -1,3 +1,8 @@
+# ascii2hex.py
+#	convert string to fire red hexadecimal byte string
+#
+# written by: FBI
+#
 str = input("Ascii: ")
 with open("hex_table.txt") as table:
 	names = table.read().splitlines()

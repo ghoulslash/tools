@@ -1,3 +1,9 @@
+# import_tm_compat.py
+#	-assemble and insert TM compatabilities for all mons from an excel sheet (.xlsx)
+#	-pokemon are column headers, tms are rows. 1 for learnable TM, 0 or blank for not
+#
+# written by: ghoulslash
+#
 import os, sys, argparse, configparser, shutil, subprocess, fnmatch, itertools
 import os.path
 import xlrd

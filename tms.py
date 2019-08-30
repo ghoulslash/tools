@@ -1,3 +1,8 @@
+# tms.py
+#	convert list of TM numbers into compatability entry
+#
+# written by: ghoulslash
+#
 inp = input("Enter TM list in matrix form: ").split(' ')	#list of numbers separated by space
 
 tms = [0] * 128		#base bitfield
